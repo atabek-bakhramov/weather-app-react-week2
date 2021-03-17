@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 25rem;
+  margin: 0 auto;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.search-container input {
+  flex-grow: 2;
+}
+
+.card-holder {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 0.05rem solid black;
+  border-radius: 0.0125rem;
+}
+
+.error-message {
+  color: red;
+}
